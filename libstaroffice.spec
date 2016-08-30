@@ -5,13 +5,13 @@
 Summary:	Library for importing of StarOffice documents
 Summary(pl.UTF-8):	Biblioteka do importowania dokumentów StarOffice'a
 Name:		libstaroffice
-Version:	0.0.1
+Version:	0.0.2
 Release:	1
 License:	MPL v2.0
 Group:		Libraries
 #Source0Download: https://github.com/fosnola/libstaroffice/releases
 Source0:	https://github.com/fosnola/libstaroffice/releases/download/%{version}/%{name}-%{version}.tar.xz
-# Source0-md5:	49b17673fd79a97ec0ca1e16d8a3ffe5
+# Source0-md5:	0bd47f3cab084b3be208c014eff5c520
 URL:		https://github.com/fosnola/libstaroffice/wiki
 BuildRequires:	doxygen
 BuildRequires:	librevenge-devel >= 0.0
