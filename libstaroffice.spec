@@ -5,13 +5,13 @@
 Summary:	Library for importing of StarOffice documents
 Summary(pl.UTF-8):	Biblioteka do importowania dokumentów StarOffice'a
 Name:		libstaroffice
-Version:	0.0.4
+Version:	0.0.6
 Release:	1
 License:	MPL v2.0
 Group:		Libraries
 #Source0Download: https://github.com/fosnola/libstaroffice/releases
 Source0:	https://github.com/fosnola/libstaroffice/releases/download/%{version}/%{name}-%{version}.tar.xz
-# Source0-md5:	cc9ab242fdc3d1a96151912610d57fb1
+# Source0-md5:	3db5ccd618b67df20adc9555fe89560a
 URL:		https://github.com/fosnola/libstaroffice/wiki
 BuildRequires:	doxygen
 BuildRequires:	librevenge-devel >= 0.0
@@ -92,8 +92,7 @@ Obecnie obsługiwane są: CSV, HTML, SVG, tekstowy i surowy.
 %build
 %configure \
 	--disable-silent-rules \
-	%{?with_static_libs:--enable-static} \
-	--with-sharedptr=c++11
+	%{?with_static_libs:--enable-static}
 
 %{__make}
 
