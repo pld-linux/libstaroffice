@@ -62,9 +62,7 @@ Statyczna biblioteka libstaroffice.
 Summary:	API documentation for libstaroffice library
 Summary(pl.UTF-8):	Dokumentacja API biblioteki libstaroffice
 Group:		Documentation
-%if "%{_rpmversion}" >= "4.6"
 BuildArch:	noarch
-%endif
 
 %description apidocs
 API documentation for libstaroffice library.
