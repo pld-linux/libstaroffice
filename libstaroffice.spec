@@ -6,7 +6,7 @@ Summary:	Library for importing of StarOffice documents
 Summary(pl.UTF-8):	Biblioteka do importowania dokumentów StarOffice'a
 Name:		libstaroffice
 Version:	0.0.7
-Release:	1
+Release:	2
 License:	MPL v2.0
 Group:		Libraries
 #Source0Download: https://github.com/fosnola/libstaroffice/releases
